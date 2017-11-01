@@ -1,0 +1,10 @@
+*.tfstate
+*.tfstate.backup
+*.tfvars
+k8s_rendered.json
+gke_test.json
+_output/
+*.pem
+public_key_openssh
+translations/
+*/.terraform/
