@@ -6,3 +6,4 @@ _output/
 public_key_openssh
 translations/
 */.terraform/
+k8s.tfvars
