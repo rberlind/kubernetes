@@ -7,3 +7,5 @@ public_key_openssh
 translations/
 */.terraform/
 k8s.tfvars
+gke_test.json
+.DS_Store
