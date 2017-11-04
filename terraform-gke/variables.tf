@@ -12,10 +12,6 @@ variable "gcp_project" {
   description = "GCP project name"
 }
 
-/*variable "gcp_credentials" {
-  description = "GCP project authentication credentials"
-}*/
-
 variable "cluster_name" {
   description = "Name of the K8s cluster"
   default = "k8sexample-cluster"
