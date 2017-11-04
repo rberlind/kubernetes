@@ -15,7 +15,7 @@ This Terraform configuration will deploy a Kubernetes cluster into Google's mana
 1. Copy your downloaded authentication JSON file to the terraform-gke directory of this project.  You can shorten the name if you want.
 1. You should probably also run `gcloud config set compute/zone <zone>` and `gcloud config set project <project>` to set your default compute zone and project.
 1. Install the Kubernetes CLI, kubectl, by running `gcloud components install kubectl`.
-1. Create a copy of k8s.tfvars.example called k8s.tfvars and set correct values for gcp_project and gcp_auth_file_name.  You can also change the values for gcp_region and gcp_zone in k8s.tfvars if you want.
+1. Create a copy of k8s.tfvars.example called k8s.tfvars and set the correct value for gcp_project.  You can also change the values for gcp_region and gcp_zone in k8s.tfvars if you want.
 
 
 ## Deployment Steps

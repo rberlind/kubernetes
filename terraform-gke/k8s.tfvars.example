@@ -1,4 +1,3 @@
 gcp_project = ""
-gcp_auth_file_name = ""
 gcp_region = "us-east1"
 gcp_zone = "us-east1-b"
