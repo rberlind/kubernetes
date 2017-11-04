@@ -12,8 +12,8 @@ variable "gcp_project" {
   description = "GCP project name"
 }
 
-variable "gcp_auth_file_name" {
-  description = "GCP project authentication file name"
+variable "gcp_credentials" {
+  description = "GCP project authentication credentials"
 }
 
 variable "cluster_name" {
